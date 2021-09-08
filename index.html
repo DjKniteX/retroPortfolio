@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-content">
+      <div class="header">
+        <h1>Nikki Xaysanasy</h1>
+        <h2>
+          Front-End Web Developer / QA Engineer / Retro Development Hobbyist
+        </h2>
+      </div>
+
+      <div class="topnav" id="navbar">
+        <a class="active" href="#">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <a href="https://blog.nikkix.me">Blog</a>
+      </div>
+
+      <div class="sidebar">
+        <img src="images/Pixel_Nikki.png" id="nikki" />
+        <h3>Interests</h3>
+        <ul>
+          <li>Legacy Programming Languages</li>
+          <li>Retro Game Development</li>
+          <li>DJing/Turnbalism</li>
+          <li>Esports</li>
+        </ul>
+
+        <h3>Links</h3>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/nikki-xaysanasy-8b8565a1/"
+              >Linkedin</a
+            >
+          </li>
+          <li><a href="https://github.com/djknitex">Github</a></li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <h1>Who I am</h1>
+
+        <p>
+          My name is <strong>Nikki Xaysanasy</strong> and I am originally from
+          <span>Arkansas</span>. I decided to move to <span>California</span> to
+          stay close to <span class="spanAREA">Silicon Valley</span> and pursue
+          a career as a Developer. I am familiar with many different
+          technologies which I learned throughout my career both freelancing and
+          through professional work. I am always constantly learning and trying
+          to keep up with the current trends. I'm hoping to bring what I learned
+          out west to back home to
+          <span class="spanAREA">Silicon Prairie</span> When I'm not programming
+          or developing websites, I am reading, playing "new" retro games, and
+          DJing.
+        </p>
+
+        <h2>What I Know</h2>
+
+        <p>
+          I'm always forever learning new <span>Technologies</span> and keeping
+          up with <span class="spanCLR">trends</span> but here are the spotlight
+          of my skills that I have used professionally and what I work with in
+          my current projects.
+        </p>
+
+        <ol id="skills">
+          <li>Web Development: HTML5 / CSS3 / Javascript</li>
+          <li>Backend: expressJS / nodeJS / Python</li>
+          <li>Databases: MongoDB / SQL / SQLite</li>
+          <li>Version Control: Git</li>
+          <li>Content Management System: Wordpress</li>
+          <li>Technology / General Technical Skills</li>
+          <li>Agile/Scrum experience</li>
+        </ol>
+
+        <h3 id="portfolio">Portfolio</h3>
+
+        <ul>
+          <li>
+            A quick highlight of what I worked on: Both Personal and
+            Professional.
+          </li>
+        </ul>
+        <ul class="row">
+          <li class="thumbnail">
+            <img class="workIMG" src="images/opc-logo.jpg" />
+            <h6>
+              <a href="https://ol.teamskynite.net">Odyssey Pokemon Circuit</a>
+            </h6>
+            <p>
+              A website that I created using
+              <span class="spanCLR">Bootstrap</span> to help track leaderboards
+              as well as general information about an on-going Pokemon Trading
+              Card Game League for Odyssey Games, A FLGS based in Pasadena,
+              California.
+            </p>
+          </li>
+          <li class="thumbnail">
+            <img class="workIMG" src="images/pavo.png" />
+            <h6><a href="https://omspavo.com">Pavo by OMS</a></h6>
+            <p>
+              During my time at Master System, I assisted in the re-design of
+              their main website as well as helping with the UI MVP for their
+              latest full-stack web app to supplement their current ERP
+              Software. The Front-end was done in
+              <span class="spanCLR">React.</span>
+            </p>
+          </li>
+          <li class="thumbnail">
+            <img class="workIMG" src="images/evennia.png" />
+            <h6><a href="https://www.evennia.com/">Upcoming MUD</a></h6>
+            <p>
+              I began to tackle on a project that I wanted to do for a long
+              time. I am currently learning
+              <span class="spanCLR">Python</span> and using
+              <span>Evennia</span> as a the base engine for my upcoming MUD. I
+              am currently leading a small team to help develop the structure of
+              the game. The web server/site is built in
+              <span class="spanCLR">Django</span> and uses
+              <span class="spanCLR">SQLite</span> as the Database.
+            </p>
+          </li>
+        </ul>
+        <h3 id="contact">Contact Me</h3>
+        <div class="container">
+          <form name="google-sheet">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="name"
+              placeholder="Your name.."
+              required
+            />
+
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email..."
+              required
+            />
+
+            <label for="subject">Subject</label>
+            <textarea
+              id="subject"
+              name="message"
+              placeholder="Write something.."
+              style="height: 200px"
+              required
+            ></textarea>
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
